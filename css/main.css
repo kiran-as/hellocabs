@@ -1,0 +1,217 @@
+/*-->
+CUSTOM FONTS
+<--*/
+
+@font-face {
+    font-family: 'Opensansregular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#Opensansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Opensanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.eot');
+    src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-semibold-webfont.svg#Opensanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body{font-family: 'Opensansregular'; font-size: 14px; color: #444444;}
+ul{ list-style: none; margin: 0px; padding: 0px;}
+
+.container{max-width: 1180px;}
+.navbar-inverse{ border-radius: 0px; border: 0px none; margin-bottom: 0px;}
+.txtr{ text-align: right;}
+.txtc{ text-align: center;}
+.txtl.txtl{ text-align: left;}
+
+/*-->
+Margin & Padding
+<--*/
+.mar-t5{ margin-top: 5px;}
+.mar-t10{ margin-top: 10px;}
+.mar-t15{ margin-top: 15px;}
+.mar-t20{ margin-top: 20px;}
+.mar-t25{ margin-top: 25px;}
+.mar-t30{ margin-top: 30px;}
+.mar-t40{ margin-top: 40px;}
+.mar-b0{ margin-bottom: 0px;}
+.mar-b5{ margin-bottom: 5px;}
+.mar-b10{ margin-bottom: 10px;}
+.mar-b15{ margin-bottom: 15px;}
+.mar-b20{ margin-bottom: 20px;}
+.mar-b30{ margin-bottom: 30px;}
+.mar-r30{ margin-right: 30px;}
+.mar-l10{ margin-left: 10px;}
+.mar-l15{ margin-left: 15px;}
+.mar-l20{ margin-left: 20px;}
+.mar-l30{ margin-left: 30px;}
+
+.mar0.mar0{ margin: 0px;}
+.hmar10{ margin-right: -10px; margin-left: -10px;}
+
+.pad-t5{ padding-top: 5px;}
+.pad-t10{ padding-top: 10px;}
+.pad-t15{ padding-top: 15px;}
+.pad-t20{ padding-top: 20px;}
+.pad-t40{ padding-top: 40px;}
+.pad-b5{ padding-bottom:5px;}
+.pad-b10{ padding-bottom:10px;}
+.pad-b15{ padding-bottom:15px;}
+.pad-l20{ padding-left: 20px;}
+.pad-l30{ padding-left: 30px;}
+.pad-l40{ padding-left: 40px;}
+
+.pad0.pad0{ padding: 0px;}
+.pad20{ padding: 20px;}
+.hpad10{ padding-right: 10px; padding-left: 10px;}
+
+/*-->
+WIDTHS & HEIGHTS
+<--*/
+.w150.w150.w150{ width: 150px;}
+.w200.w200.w200{ width: 200px;}
+.w250.w250.w250{ width: 250px;}
+.w800.w800.w800{ width: 800px;}
+.mh400{ min-height: 400px;}
+.mh500{ min-height: 500px;}
+
+/*-->
+HEADER & FOOTER
+<--*/
+.top--header{ background: #fff; border-bottom: 1px solid #E2E2E2; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); min-height: 60px}
+.top--header .navbar-brand{ padding: 8px 0px 0px 15px;}
+.header-nav li{ border-left: 1px solid #d9d9d9;}
+.phone{ background: url('../img/sprite.png') no-repeat left 12px;}
+.email-icon.email-icon{ background: url('../img/sprite.png') no-repeat left -24px; padding-left: 30px;}
+.header-right.header-right.header-right a{ color: #F9B233}
+.header-right.header-right.header-right a:hover{color:#004b1b}
+.header-right li + li{ padding-left: 15px;}
+.header-right li + li:before{ position:absolute;content: ''; width: 1px; height: 10px; background: #a9a9a9; top: 20px;}
+
+footer{ background-color: #f2f2f2; margin-top: 30px; padding: 15px 0px 5px 0px; color: #797979;  font-size: 12px;}
+
+/*-->
+DASHBOARD
+<--*/
+.header-left-nav.header-left-nav li a{ color: #2a2a2a; font-size: 16px;  padding-left: 50px; padding-top: 20px; padding-bottom: 19px;  font-family: 'Opensanssemibold'; background: url('../img/sprite.png') no-repeat 16px -57px;}
+.header-left-nav.header-left-nav li:nth-child(2n) a{background-position:  15px -102px;}
+.header-left-nav.header-left-nav li:nth-child(3n) a{background-position: 10px -145px;}
+.header-left-nav.header-left-nav li.active a, .header-left-nav.header-left-nav.header-left-nav li a:hover, .header-left-nav.header-left-nav.header-left-nav li a:focus{ color: #F9B233; background-color: transparent;}
+.cutsom--tab{ border: 1px solid #ddd; border-top: 0px none; padding: 30px;}
+.custom-tabs-nav.custom-tabs-nav a{ color: #2a2a2a; background: url('../img/sprite.png') no-repeat 10px -65px; padding-left: 35px;}
+.custom-tabs-nav.custom-tabs-nav li:nth-child(2n) a{ background-position:  5px -110px; }
+.custom-tabs-nav.custom-tabs-nav li:nth-child(3n) a{ background-position: 8px -155px; padding-left: 45px;}
+.font16-sm{ color: #000; font-size: 16px; font-family: 'Opensanssemibold';}
+.fw-normal{ font-weight: normal;}
+.pos-rel{ position: relative;}
+.date{ background: url("../img/sprite.png") no-repeat scroll 0 -202px rgba(0, 0, 0, 0); cursor: pointer; display: block; height: 30px; position: absolute; right: 18px; top: 24px; width: 30px;}
+.btn-inverse.btn-inverse{ background-color: #fff; color: #F9B233; border-color: #F9B233; font-family: 'Opensanssemibold';}
+.btn-primary.btn-primary, .btn-inverse.btn-inverse:hover, .v-align-mid tr:hover .btn-inverse{ background-color: #F9B233; border-color: #F9B233;  color: #fff;}
+.btn-primary:hover{ background-color:#F0A51D; border-color: #F0A51D;}
+.carousel-indicators{ bottom: 10px}
+.brd-top{ border-top:1px solid #DDD; }
+footer li{ padding-bottom: 5px;}
+.navbar-inverse .navbar-toggle .icon-bar{background-color: #f9b233;}
+.brd-btm {border-bottom: 1px solid #e5e5e5;}
+.v-align-mid.v-align-mid td {vertical-align: middle;}
+.font12{ font-size: 12px;}
+.v-align-mid tbody tr:hover, .v-align-mid tbody tr.current{ background: #F7F7F7;}
+.font24-sm{font-family: 'Opensanssemibold';font-size: 24px;}
+.ft-block{ padding: 15px; border: 1px solid #ddd; box-shadow: 0px 0px 10px rgba(0,0,0,0.15);}
+.ft-block:hover{ background-color: #f5f5f5;}
+.footer-nav li a { 
+    color: #333;
+}
+.footer-nav li a:hover, .footer-nav li.active a{ 
+    color: #F9B233;    
+}
+.home-nav-center.home-nav-center li a {
+    color: #fff;
+    background:url('../img/sprite.png') no-repeat 16px -245px #000;
+}
+.home-nav-center.home-nav-center.home-nav-center li a:hover, .home-nav-center.home-nav-center.home-nav-center li a:focus, .home-nav-center.home-nav-center.home-nav-center li a:active {
+    background:url('../img/sprite.png') no-repeat 16px -145px #000;
+}
+
+.table-slide {
+    width: 150px;
+}
+.table-slide .carousel-indicators {
+    bottom: -10px;
+}
+.table-slide .carousel-indicators li {
+    border-color: #f9b233;
+}
+.table-slide .carousel-indicators .active {
+    background-color: #f9b233;
+}
+
+@media screen and (min-width: 768px){
+.header-left-nav{border-right: 1px solid #d9d9d9; margin-left: 30px;}
+.header-left-nav li{ border-left: 1px solid #d9d9d9;}
+.sm-pull-left{ float: left;}
+.sm-pull-right{ float: right;}   
+.footer-nav li {
+    float: left;
+    padding-left:  10px;
+    padding-right: 10px;    
+}
+.home-nav-center.home-nav-center {
+    margin-left: 35%;
+}
+}
+@media screen and (min-width: 768px) and (max-width:991px){ 
+    .home-nav-center.home-nav-center {
+    margin-left: 20%;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 82px;
+}
+.home-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 52px;
+}    
+}
+@media screen and (max-width: 767px){
+.top--header .navbar-collapse.navbar-collapse {border-color:#ddd; margin-top: 10px;}
+.top--header .navbar-nav{ margin: 0px 0px 5px 0px;}
+.header-right.nav>li{ float: left;}
+.header-right.header-right.header-right a{ padding-top: 15px;}
+.mar-xs-t20{ margin-top: 20px;}
+.mar-xs-t30{ margin-top: 30px;}
+.top--header .navbar-toggle{margin-top: 12px;}
+.clear-xs-date{ clear: left; padding-left: 0;}
+.footer-nav li + li {
+    padding-top: 10px;
+}    
+}
+@media screen and (max-width: 479px){
+.header-right.nav>li:last-child{padding-left: 10px;}
+.custom-tabs-nav.custom-tabs-nav a, .custom-tabs-nav.custom-tabs-nav li:nth-child(3n) a{padding-left: 10px; font-size: 12px; background-image: none;}  .cutsom--tab{padding: 20px;}
+.clear-xs-date span{ font-size: 14px;}
+}
+
