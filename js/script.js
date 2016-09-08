@@ -92,7 +92,7 @@
             $('.contactWrap').show();
 
         });
-        $('.BenefitsBtn').click(function() {// benifit button click
+        $('.BenefitsBtn').click(function() {// benefit button click
             $('.contactWrap').hide();
             $('.benifitWrap').show();
 
@@ -1196,7 +1196,7 @@ $params['messages'][$agree_term] = {
     }
     /**************Error message toggle option starts here***********/
 
-    /***************Accordian replace with jqery toggle startes here**************************/
+    /***************Accordion replace with jqery toggle startes here**************************/
     if ($('.FAQHead').length) {
         $('.FAQAccordianTxt').hide();
         $('.FAQHead').click(function() {
@@ -1211,7 +1211,7 @@ $params['messages'][$agree_term] = {
         });
 
     }
-    /****************Accordian replace with jqery toggle ends here @ARJUN***********************/
+    /****************Accordion replace with jqery toggle ends here @ARJUN***********************/
     /******************************Captcha started here****************************/
     if ($('#recaptcha_div').length) {
         function showRecaptcha(element) {
@@ -1237,7 +1237,7 @@ $params['messages'][$agree_term] = {
     }
     //********** text box focus color changes in contact right side form ends here @ARJUN *************//
 
-    /************************** Sevice Information page font color starts here **************************/
+    /************************** Service Information page font color starts here **************************/
 
     if ($('.enrollment_outer').length) {
         $('.enrollment_outer input').keyup(function() {
@@ -1253,7 +1253,7 @@ $params['messages'][$agree_term] = {
             checkingValueAndChangeColor4();
         });
     }
-/************************** Sevice Information page font color ends here **************************/
+/************************** Service Information page font color ends here **************************/
 
     if ($('.SignUpBoxWrap').length) {
         $('.SignUpBoxWrap input').keyup(function() {
