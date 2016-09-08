@@ -1237,7 +1237,7 @@ $params['messages'][$agree_term] = {
     }
     //********** text box focus color changes in contact right side form ends here @ARJUN *************//
 
-    /************************** Sevice Information page font color starts here **************************/
+    /************************** Service Information page font color starts here **************************/
 
     if ($('.enrollment_outer').length) {
         $('.enrollment_outer input').keyup(function() {
@@ -1253,7 +1253,7 @@ $params['messages'][$agree_term] = {
             checkingValueAndChangeColor4();
         });
     }
-/************************** Sevice Information page font color ends here **************************/
+/************************** Service Information page font color ends here **************************/
 
     if ($('.SignUpBoxWrap').length) {
         $('.SignUpBoxWrap input').keyup(function() {
