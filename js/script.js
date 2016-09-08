@@ -92,7 +92,7 @@
             $('.contactWrap').show();
 
         });
-        $('.BenefitsBtn').click(function() {// benifit button click
+        $('.BenefitsBtn').click(function() {// benefit button click
             $('.contactWrap').hide();
             $('.benifitWrap').show();
 
