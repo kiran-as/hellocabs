@@ -1196,7 +1196,7 @@ $params['messages'][$agree_term] = {
     }
     /**************Error message toggle option starts here***********/
 
-    /***************Accordian replace with jqery toggle startes here**************************/
+    /***************Accordion replace with jqery toggle startes here**************************/
     if ($('.FAQHead').length) {
         $('.FAQAccordianTxt').hide();
         $('.FAQHead').click(function() {
@@ -1211,7 +1211,7 @@ $params['messages'][$agree_term] = {
         });
 
     }
-    /****************Accordian replace with jqery toggle ends here @ARJUN***********************/
+    /****************Accordion replace with jqery toggle ends here @ARJUN***********************/
     /******************************Captcha started here****************************/
     if ($('#recaptcha_div').length) {
         function showRecaptcha(element) {
